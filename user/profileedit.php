@@ -56,12 +56,12 @@ if (@get_headers($usr['UserImage'])[0] == 'HTTP/1.1 404 Not Found' || $usr['User
                             <label for="Country" class="label label-default">Country</label>
                             <input type="text" class="form-control editprofile" name="country" id="country" value="<?php echo $usr['Country']; ?>"> </div>
                     </div>
-                    <div class="row">
+                   <!-- <div class="row">
                         <div class="col-sm-12">
                             <label for="bio" class="label label-default">Bio</label>
                             <textarea rows="6" name="bio" class="form-control" id="bio"><?php echo $usr['Bio']; ?></textarea>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="form-group">
                     <div class="row">

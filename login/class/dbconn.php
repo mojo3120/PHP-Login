@@ -94,6 +94,12 @@ class DbConn
     * @var string
     */
     public $tbl_member_jail;
+    /*
+    * Table where signboards stored
+    * @var string
+    */
+    public $tbl_signboards;
+
     /**
     * Makes this a singleton class
     * @var Singleton
@@ -122,7 +128,7 @@ class DbConn
         $this->tbl_app_config = $tbl_app_config;
         $this->tbl_mail_log = $tbl_mail_log;
         $this->tbl_member_jail = $tbl_member_jail;
-
+	$this->tbl_signboards = $tbl_signboards;
         // Connect to server and select database
         try {
             $this->conn = new PDO('mysql:host='.$host.';dbname='.$db_name.';charset=utf8', $username, $password);

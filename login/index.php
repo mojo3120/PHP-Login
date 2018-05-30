@@ -26,7 +26,7 @@ include 'misc/pagehead.php';
             </form>
             <div id="message"></div>
             <p class="text-center"><a href="forgotpassword.php">Forgot Password?</a></p>
-            <p class="text-center">or <a href="signup.php">Create an Account</a></p>
+           <!-- <p class="text-center">or <a href="signup.php">Create an Account</a></p>-->
         </div>
         <div class="col-sm-4"></div>
     </div>

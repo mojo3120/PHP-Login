@@ -1,5 +1,5 @@
 <?php
-$title = "Standard User Page";
+$title = "Signboards";
 $userrole = "Standard User"; // Allow only logged in users
 include "login/misc/pagehead.php";
 ?>
@@ -8,9 +8,8 @@ include "login/misc/pagehead.php";
   <?php require 'login/misc/pullnav.php'; ?>
     <div class="container">
 
-        <h2>Standard User Page</h2>
-        <p>Hello, <?=$_SESSION["username"]?>!</p>
-        <p>This page requires a Standard User to be logged in</p>
+        <h2>My Signboards</h2>
+       <!-- <p>Hello, <?=$_SESSION["username"]?>!</p>-->
     </div>
 </body>
 </html>
